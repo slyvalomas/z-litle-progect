@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+ 
+    <main class="main">
+        <section class="main__section1">
+            <div class="plusmin">
+                <button class="main__plus" onclick="incrementCount()">+1</button>
+                <button class="main__-" onclick="save()">-1</button>
+            </div>
+        </section>
+        <section class="main__section2">
+            <h1 id="counter">0</h1>
+        </section>
+    </main>
+    <div class="div">
+        <div class="screen" id="screen">0</div>
+        <div class="container">
+            <button class="number" onclick="addText(1)">1</button>
+            <button class="number" onclick="addText(2)">2</button>
+            <button class="number" onclick="addText(3)">3</button>
+            <button class="number" onclick="addText(4)">4</button>
+            <button class="number" onclick="addText(5)">5</button>
+            <button class="number" onclick="addText(6)">6</button>
+            <button class="number" onclick="addText(7)">7</button>
+            <button class="number" onclick="addText(8)">8</button>
+            <button class="number" onclick="addText(9)">9</button>
+        </div>
+        <div class="lastline">
+            <div class="goon">-</div>
+            <div class="goon">0</div>
+            <div class="goon">+</div>
+        </div>
+    </div>
+</body>
+<script src="js.js"></script>
+</html>
